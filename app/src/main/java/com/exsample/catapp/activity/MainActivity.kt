@@ -1,8 +1,8 @@
-package com.exsample.catapp
+package com.exsample.catapp.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.exsample.catapp.fragment.CatFragmentViewModel
+import com.exsample.catapp.R
 import com.exsample.catapp.databinding.ActivityMainBinding
 import com.exsample.catapp.fragment.CatFragment
 import dagger.hilt.android.AndroidEntryPoint

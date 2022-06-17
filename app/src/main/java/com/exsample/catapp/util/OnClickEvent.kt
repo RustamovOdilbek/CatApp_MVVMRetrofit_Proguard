@@ -1,4 +1,4 @@
-package com.exsample.catapp.adapter
+package com.exsample.catapp.util
 
 import android.widget.ImageView
 

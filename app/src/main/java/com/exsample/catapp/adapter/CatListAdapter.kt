@@ -6,7 +6,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.exsample.catapp.databinding.ItemCatViewBinding
 import com.exsample.catapp.models.CatItem
+import com.exsample.catapp.util.OnClickEvent
 
+/**
+ * in this adapter, we print the car data
+ */
 class CatListAdapter(var cats: ArrayList<CatItem>,  var onClickEvent: OnClickEvent): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val view = ItemCatViewBinding.inflate(LayoutInflater.from(parent.context), parent, false)
